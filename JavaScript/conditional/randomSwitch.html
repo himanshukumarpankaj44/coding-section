@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        //ask a questin random num for random respones
+        //use switch to random response
+        //output the response
+        var ans="something wrong";
+        var output=document.getElementById("output");
+        var ques=prompt("ask me anything");
+        var random=Math.floor(Math.random()*6);
+        switch(random){
+            case 0:
+                ans="it will work out";
+                break;
+            case 1:
+                ans="maybe or maybe not";
+                break;
+            case 2:
+                ans="Prabably not";
+                break;
+            case 3: 
+                "highly likely";
+                break;
+            default:
+                ans="I don't know about that";
+
+        }
+        output.innerHTML="you asked me"+ques+"<br> I think i like that"+ans;
+    </script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        var a=myFunNew();
+        function myFunNew(para="Hello world"){
+            output.innerHTML+=para;
+            return a;
+
+        }
+        function myFunOld(para){
+            if(typeof para=="undefined"){
+                para="hello world";
+            }
+            output.innerHTML+=para;
+            return para;
+        }
+        
+    </script>
+</body>
+</html>

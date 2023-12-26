@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var newHolder=["cat","dog","rabbit","bird"];
+        console.log(newHolder);
+        // //["horse","fish","fish","fish","fish","rabbit","dog","sheep"]
+        // newHolder.shift();
+        // newHolder.shift();
+        // newHolder.unshift("horse");
+        // newHolder[10]="sheep";
+        // newHolder.splice(8,0,"rabbit","dog");
+        
+        // newHolder.fill("fish",1,7);
+        // conslole.log(newHolder);
+        newHolder[10]="horse";
+        newHolder.fill("fish",3,10);
+        newHolder.reverse();
+        newHolder.pop();
+        newHolder.push("sheep");
+        console.log(newHolder);
+    </script>
+</body>
+</html>

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>himanshu</title>
+</head>
+<body>
+    <div id="output">If Else statement exercise</div>
+    <script>
+        var time=prompt("kindly enter the time:");
+        var output=document.getElementById("output");
+        if(time<8){
+            output.innerHTML="good morning";
+        }
+        else if(time< 12){
+            output.innerHTML=" it's breakfast time";
+
+        }
+        else if(time >12 && tim<13){
+            output.innerHTML="It's time to go for lunch";
+
+        }
+        else{
+            output.innerHTML="It's time for Dinner";
+        }
+    </script>
+</body>
+</html>

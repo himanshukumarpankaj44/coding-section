@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="output">Ternary Operator</div>
+    <!-- <div id="output">Ternary Operator</div>
+    <script>
+        var output=document.getElementById("output");
+        var login="true"
+        var outputHolder="";
+        var userOkay=login==true?outputHolder="true": outputHolder="false";
+        output.innerHTML=userOkay;
+    </script> -->
+    <script>
+        //user name array
+        //user name prompt
+        // indexOf
+        var userName=["himanshu","abhishek","ravi","rahul"];
+        var userInput=prompt("what is your name:?");
+        var checkUser=userName.indexOf(userInput)>-1?true:false;
+        
+        var output=document.getElementById("output");
+        output.innerHTML=checkUser?"welcome":"denied";
+        
+        output.innerHTML +=","+ userInput;
+        // var login="false";
+        // var outputHolder="";
+        // var userOkay=login?outHolder="true":outputHolder="false";
+        // outputinnerHTML=userOkay;
+        // login?alert("okay"):alter("deleted");
+    </script>
+</body>
+</html>

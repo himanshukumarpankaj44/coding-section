@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>all the even number in the given list 
+    </p>
+    <div id="list"></div>
+    <div id="output"></div>
+    <script>
+        var size=prompt("kindly enter the length of the number:");
+        size=Number(size);
+        document.getElementById("list").innerHTML=size;
+        var output=document.getElementById("output");
+        var x=1;
+       
+        do{
+            if(x%2==0){
+                  output.innerHTML+= x+",";
+
+            }
+            x++;
+        }while(x<=size);
+    </script>
+   
+</body>
+</html>

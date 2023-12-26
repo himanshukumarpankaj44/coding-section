@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <div id="wrapper">page 1</div> 
+   <img src="https://www.goodfreephotos.com/cache/italy/other-italy/beautiful-landscape-with-mountains-and-lakes-with-sky-in-italy.jpg" alt="my photo" id="imgSwap" onmouseover="clmg(this)" height="240" width="240"
+>
+<script>
+
+    function clmg(t){
+        message(t.src);
+        imgHolder=t.src;
+        document.getElementById("wrapper").innerHTML=t.src;
+       t.src="https://th.bing.com/th/id/R.d90405fea21eae155a0df21e7fa1bb7f?rik=gB6Y1u8ykc20sg&riu=http%3a%2f%2fmedia.cntraveler.com%2fphotos%2f56cf6b7569d8fae9411b181a%2fmaster%2fpass%2fAdriano_Neves_Portugual_Shortlist_Open_Travel_2016.jpg&ehk=lqBxcJxinQA3P1vW4%2fibYAlmQZQsb4A9U2it5z98uq0%3d&risl=&pid=ImgRaw&r=0";
+    }
+    function message(m){
+        document.getElementById("wrapper").innerHTML=m;
+    }
+    var imgHolder="https://www.goodfreephotos.com/cache/italy/other-italy/beautiful-landscape-with-mountains-and-lakes-with-sky-in-italy.jpg";
+   function bimg(t){
+       t.src=imgHolder;
+   }
+   document.getElementById("imgSwap").onclick=function(){
+    message("clicked");
+   }
+   document.getElementById("imgSwap").src=imgHolder;
+   window.onload=function(){
+    document.getElementById("imgSwap").sec=imgHolder;
+   }
+</script>
+</body>
+</html>

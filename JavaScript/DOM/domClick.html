@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrap">hii</div>
+    <form name="myForm">
+       
+        <input type="button" onclick="myFun(this)" value="click1">
+        <input type="button" onclick="myFun(this)" value="click2">
+        <input type="button" onclick="myFun(this)" value="click3">
+    </form>
+    <script>
+        var output=document.getElementById("wrap");
+        function myFun(t){
+           console.dir(t);
+           output.innerHTML=t.value;
+           t.value="clicked";
+        }
+    </script>
+</body>
+</html>

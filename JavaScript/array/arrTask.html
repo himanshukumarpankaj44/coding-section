@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var task=["take out garbage","read a book","write javaScript","go to work"];
+        var progress=["done","in progress","to do"];
+        var question=prompt("which task 1-4?");
+        var question2=prompt("status 1=done 2=in progress 3=to do");
+        
+        console.log("today you will "+task[(question-1)]+" status of task="+progress[(question2-1)]);
+        var task1=[1,2,3,4,5,6,7,8];
+        var random_index=Math.floor(Math.random()*task1.length);
+        console.log(task1[random_index]);
+    </script>
+    
+</body>
+</html>

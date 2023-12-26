@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        td{border:2px solid black;}
+    </style>
+</head>
+<body>
+    <div id="output"></div>
+    <script>
+        var output=document.getElementById("output");
+        var html="<table>";
+            var cell=0;
+        for(var row=1;row<=10;row++){
+            html+="<tr>";
+            for(var col=1;col<=5;col++){
+                cell++;
+                html+="<td>Cell="+cell+"</td>";
+            }
+            html+="</tr>";
+        }
+        html+="</table>";
+        output.innerHTML=html;
+    </script>
+
+</body>
+</html>

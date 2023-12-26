@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrap">welcome to my page</div>
+    <input type="text" id="url" name="url" 
+    value="https://www.google.com/">
+    <input type="button" onclick="goUrl()" value="go to url">
+     <script>
+        var output= document.getElementById("wrap");
+        function goUrl(){
+            var url=document.getElementById("url");
+            window.location=url;
+
+        }
+     </script>
+</body>
+</html>

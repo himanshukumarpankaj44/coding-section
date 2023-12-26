@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var fan={model:1001,name:"finolex",type:"wall fan"};
+        document.write(fan.model+" "+fan.name+" "+fan.type);
+        console.log(fan);
+        
+        //by creating instance of object
+        var phone= new Object();
+        phone.id=2345;
+        phone.model="note 10s";
+        phone.company="redmi";
+        document.write("<br>");
+        document.write(phone.id+" "+phone.model+" "+phone.company);
+        console.log(phone);
+        //using object constructor
+        function emp(id,name,salary)
+        {
+            this.id=id;
+            this.name=name;
+            this.salary=salary;
+
+        }
+        e=new emp(1002,"himanshu",100000);
+        document.write("<br>"+e.id+" "+e.name+" "+e.salary);
+        console.log(e);
+        
+    </script>
+</body>
+</html>

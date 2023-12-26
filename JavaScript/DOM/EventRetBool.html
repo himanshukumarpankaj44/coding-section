@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">Page 1</div>
+    <input type="text" name="myNum" onkeypress="return numCheck()"
+    onpaste="return false">
+    <input type="text" name="myNum2" onkeypress="return numCheck2()" 
+    onpaste="return false">
+    <script>
+        function numCheck(){
+            message(isNaN(event.key));
+            return !isNaN(event.key);
+        }
+        function numCheck2(){
+            message(!isNaN(event.key));
+            return isNaN(event.key)
+        }
+        function message(m){
+            document.getElementById("wrapper").innerHTML=m;
+        }
+    </script>
+</body>
+</html>

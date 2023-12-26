@@ -1,0 +1,287 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "subArray",
+            "request": "launch",
+            "mainClass": "subArray",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "AddTwo",
+            "request": "launch",
+            "mainClass": "AddTwo",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Distance",
+            "request": "launch",
+            "mainClass": "Distance",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Hello",
+            "request": "launch",
+            "mainClass": "Hello",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Hexagon",
+            "request": "launch",
+            "mainClass": "Hexagon",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Measure",
+            "request": "launch",
+            "mainClass": "Measure",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "MidPoint",
+            "request": "launch",
+            "mainClass": "MidPoint",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Neon",
+            "request": "launch",
+            "mainClass": "Neon",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "OddEvn",
+            "request": "launch",
+            "mainClass": "OddEvn",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Palindrome",
+            "request": "launch",
+            "mainClass": "Palindrome",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Pronic",
+            "request": "launch",
+            "mainClass": "Pronic",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "QuadraticEq",
+            "request": "launch",
+            "mainClass": "QuadraticEq",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Rectangle",
+            "request": "launch",
+            "mainClass": "Rectangle",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "SpyNumb",
+            "request": "launch",
+            "mainClass": "SpyNumb",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Swap",
+            "request": "launch",
+            "mainClass": "Swap",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "TempConv",
+            "request": "launch",
+            "mainClass": "TempConv",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Time",
+            "request": "launch",
+            "mainClass": "Time",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "TriangleArea",
+            "request": "launch",
+            "mainClass": "TriangleArea",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "amiconum",
+            "request": "launch",
+            "mainClass": "amiconum",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "binaryTodecimal",
+            "request": "launch",
+            "mainClass": "binaryTodecimal",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "deciToOctal",
+            "request": "launch",
+            "mainClass": "deciToOctal",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "decimaltoBinary",
+            "request": "launch",
+            "mainClass": "decimaltoBinary",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "fibonacci",
+            "request": "launch",
+            "mainClass": "fibonacci",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "kmTomil",
+            "request": "launch",
+            "mainClass": "kmTomil",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "octalTodecimal",
+            "request": "launch",
+            "mainClass": "octalTodecimal",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "BothSideTriangle",
+            "request": "launch",
+            "mainClass": "pattern.BothSideTriangle",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "LeftTriangle",
+            "request": "launch",
+            "mainClass": "pattern.LeftTriangle",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "NumTriangle1",
+            "request": "launch",
+            "mainClass": "pattern.NumTriangle1",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "NumberTriangle",
+            "request": "launch",
+            "mainClass": "pattern.NumberTriangle",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "OppositeTriangle",
+            "request": "launch",
+            "mainClass": "pattern.OppositeTriangle",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "RightTriangle",
+            "request": "launch",
+            "mainClass": "pattern.RightTriangle",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "SquarePattern",
+            "request": "launch",
+            "mainClass": "pattern.SquarePattern",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "Triangle",
+            "request": "launch",
+            "mainClass": "pattern.Triangle",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "UpDownNOTriangle",
+            "request": "launch",
+            "mainClass": "pattern.UpDownNOTriangle",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "UppLowTriangle",
+            "request": "launch",
+            "mainClass": "pattern.UppLowTriangle",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "polygon",
+            "request": "launch",
+            "mainClass": "polygon",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "sumDigit",
+            "request": "launch",
+            "mainClass": "sumDigit",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "unique",
+            "request": "launch",
+            "mainClass": "unique",
+            "projectName": "coding section_b1fea6ae"
+        },
+        {
+            "type": "java",
+            "name": "uniqueUsing1234",
+            "request": "launch",
+            "mainClass": "uniqueUsing1234",
+            "projectName": "coding section_b1fea6ae"
+        }
+    ]
+}
