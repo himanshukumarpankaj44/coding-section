@@ -6,6 +6,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "DecimalToOctal",
+      "request": "launch",
+      "mainClass": "DecimalToOctal",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "Table",
+      "request": "launch",
+      "mainClass": "Table",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "Operations",
+      "request": "launch",
+      "mainClass": "Operations",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "Example",
       "request": "launch",
       "mainClass": "Example",
