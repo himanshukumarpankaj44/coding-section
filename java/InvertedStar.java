@@ -10,5 +10,6 @@ public class InvertedStar {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

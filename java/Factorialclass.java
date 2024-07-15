@@ -5,7 +5,7 @@ public class Factorialclass {
         System.out.println("Enter the value which you want to find the factorial :");
         long a = sc.nextLong();
         System.out.println("the factorial of a:"+a+ " is :"+factorial(a));
-
+        sc.close();
     }
     public static long factorial(long a){
         long f=1;
@@ -13,5 +13,6 @@ public class Factorialclass {
             f*=i;
         }
         return f;
+    
     }
 }

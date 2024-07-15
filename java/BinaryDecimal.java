@@ -8,6 +8,7 @@ public class BinaryDecimal {
         System.out.println("Enter the binary value to convert it in decimal:");
         int binNo = sc.nextInt();
         System.out.println(binNo+" value in decimal"+ decimal(binNo));
+        sc.close();
     }
     public static int decimal(int n){
         int dec = 0;

@@ -6,6 +6,7 @@ public class BinomialCofficient {
         int n= sc.nextInt();
         int r= sc.nextInt();
         System.out.println("Binomial cofficient of the given value is:"+binomial(n,r));
+        sc.close();
     }
     public static long factorial(int n){
         long f=1;

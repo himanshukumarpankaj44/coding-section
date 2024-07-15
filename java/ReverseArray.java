@@ -14,6 +14,7 @@ public class ReverseArray {
         reverseArray(arr,size);
         System.out.println("After the reversing the array elements:");
         printArray(arr,size);
+        sc.close();
     }
     public static void reverseArray(int[] arr,int size){
         int first =0, last = size-1;

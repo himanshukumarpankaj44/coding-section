@@ -11,6 +11,7 @@ public class SubArray {
 
         System.out.println("Here is the all the sug array of the given array:");
         subArr(arr);
+        sc.close();
 
     }
     public static void subArr(int[] arr){

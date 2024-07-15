@@ -10,6 +10,7 @@ public class BinarySearch {
         } else{
            System.out.println(key+" is present in the :"+binarySearch(arr,key)+" index");
         }
+        sc.close();
         
     }
     public static int binarySearch(int[] arr,int key){

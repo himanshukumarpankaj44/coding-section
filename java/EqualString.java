@@ -13,6 +13,7 @@ public class EqualString {
         }
         s1="singh";
         System.out.println(s1);
+        sc.close();
 
     }
 }

@@ -15,7 +15,7 @@ public class TwoDimArraySum {
        System.out.println("Here is the Element of the Array:");
        printMatrix(matrix);
        System.out.println("Sum of the Array element is:"+elementSum(matrix));
-
+       sc.close();
 
    }
    public static void printMatrix(int[][] matrix){

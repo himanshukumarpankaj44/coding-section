@@ -16,6 +16,7 @@ public class Bubble {
        // selectionSort(arr);
         insertionSort(arr);
         printArray(arr);
+        sc.close();
 
     }
     public static void bubbleSort(int[] arr){

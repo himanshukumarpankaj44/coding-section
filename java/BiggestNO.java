@@ -12,6 +12,7 @@ public class BiggestNO {
         }else{
             System.out.println("Biggest number is"+ bigger(a,b,c));
         }
+        sc.close();
 
     }
     public static float bigger(float a,float b,float c){

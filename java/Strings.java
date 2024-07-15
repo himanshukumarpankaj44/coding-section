@@ -13,6 +13,7 @@ public class Strings {
         } else{
             System.out.println(str+" is not a palindrome:");
         }
+        sc.close();
 
     }
     public static void printLetters(String str){

@@ -6,6 +6,7 @@ public class ShortestPath {
         System.out.println("Enter the direction in the form of s,w,e,n:");
         path = sc.next();
         System.out.println("Shortest path of the distance is:"+getShortest(path));
+        sc.close();
 
     }
     public static float getShortest(String path){
@@ -38,4 +39,5 @@ public class ShortestPath {
         int Y2= y*y;
         return (float)Math.sqrt(X2+Y2);
     }
+    
 }

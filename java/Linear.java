@@ -19,6 +19,7 @@ public class Linear {
         }else{
             System.out.println(key+" is not present in the array:");
         }
+        sc.close();
     }
     public static void arrayPrint(int[] arr,int size){
         for(int i=0;i<size;i++){

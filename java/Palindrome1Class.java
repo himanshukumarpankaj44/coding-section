@@ -1,5 +1,5 @@
 import java.util.*;
-public class PalindromeClass {
+public class Palindrome1Class {
     public static void main(String[] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the number to check weather it is palindrome or not");
@@ -11,6 +11,7 @@ public class PalindromeClass {
 
             System.out.println("not a palindrome");
         }
+        sc.close();
     }
     public static boolean palindrome(int num){
         int temp = num;

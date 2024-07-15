@@ -10,6 +10,7 @@ public class StarPattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 
 }

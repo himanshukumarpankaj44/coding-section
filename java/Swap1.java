@@ -1,5 +1,5 @@
 import java.util.*;
-public class Swap {
+public class Swap1 {
     public static void main(String[] args){
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter two value which you want to swap:");
@@ -9,6 +9,7 @@ public class Swap {
         swapTwo(a,b);
         swapWithoutTemp(a,b);
         System.out.println("Product of two number is:"+product(a,b));
+        sc.close();
     }
     public static void swapTwo(int x,int y){
         int temp= x;

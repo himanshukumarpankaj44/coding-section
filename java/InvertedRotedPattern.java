@@ -13,5 +13,6 @@ public class InvertedRotedPattern {
             }
             System.out.println();
         }
+        sc.close();
     }
 }

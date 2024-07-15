@@ -3,6 +3,7 @@ public class CompressString {
     public static void main(String[] args){
         String str = "aaabbccccdddddd";
         System.out.println("here is the compressed string:"+stringCompress(str));
+        
     }
     public static String stringCompress(String str){
         StringBuilder sb = new StringBuilder();
@@ -19,4 +20,5 @@ public class CompressString {
         }
         return sb.toString();
     }
+    
 }

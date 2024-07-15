@@ -29,6 +29,6 @@ public class VshapedPattern {
             }
             System.out.println();
         }
-
+        sc.close();
     }
 }

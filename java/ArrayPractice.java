@@ -13,7 +13,8 @@ public class ArrayPractice {
       printArray(arr,size);
       System.out.println("Largest element of the array is:"+largeElement(arr,size));
       System.out.println("Smallest element of the array is :"+smallElement(arr,size));
-  }
+      sc.close();
+    }
   public static void printArray(int[] arr, int size){
       for(int i=0;i<size;i++){
           System.out.print(arr[i]+" ");

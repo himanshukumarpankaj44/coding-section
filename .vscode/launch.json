@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Swap1",
+      "request": "launch",
+      "mainClass": "Swap1",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "Palindrome1",
+      "request": "launch",
+      "mainClass": "Palindrome1",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "VowConsonent",
+      "request": "launch",
+      "mainClass": "VowConsonent",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "VowConsonent",
+      "request": "launch",
+      "mainClass": "Strings.VowConsonent",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "ReverseSTir",
+      "request": "launch",
+      "mainClass": "ReverseSTir",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "ReversStr",
+      "request": "launch",
+      "mainClass": "ReversStr",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "ReverseString",
+      "request": "launch",
+      "mainClass": "ReverseString",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "DecimalToOctal",
       "request": "launch",
       "mainClass": "DecimalToOctal",

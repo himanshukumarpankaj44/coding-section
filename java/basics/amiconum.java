@@ -1,3 +1,6 @@
+// a pair of numbers where the sum of the proper divisors of one number equals the other number.
+// The smallest pair of amicable numbers is (220, 284). The proper divisors of 220 are 1, 2, 4, 5, 10, 11,
+//  20, 22, 44, 55, and 110, which sum up to 284. Similarly, the proper divisors of 284 are 1, 2, 4, 71, and 142, which sum up to 220.
 import java.util.*;
 public class amiconum {
     public static void amicable(int n1,int n2){
