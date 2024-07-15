@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RemoveDuplicate",
+      "request": "launch",
+      "mainClass": "RemoveDuplicate",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "DuplicateCharacter",
+      "request": "launch",
+      "mainClass": "DuplicateCharacter",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "Swap1",
       "request": "launch",
       "mainClass": "Swap1",
