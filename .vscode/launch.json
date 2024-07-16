@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "EvenLengthWord",
+      "request": "launch",
+      "mainClass": "java.Strings.EvenLengthWord",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "RemoveDuplicate",
       "request": "launch",
       "mainClass": "RemoveDuplicate",
