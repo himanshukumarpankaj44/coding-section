@@ -1,4 +1,4 @@
-import java.util.*;
+
 public class CompressString {
     public static void main(String[] args){
         String str = "aaabbccccdddddd";

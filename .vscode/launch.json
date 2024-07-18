@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "TwoMatrixSum",
+      "request": "launch",
+      "mainClass": "TwoMatrixSum",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "EvenWord",
+      "request": "launch",
+      "mainClass": "EvenWord",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "EvenLengthWord",
       "request": "launch",
       "mainClass": "java.Strings.EvenLengthWord",
