@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringAnagram",
+      "request": "launch",
+      "mainClass": "StringAnagram",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "StringInsert",
       "request": "launch",
       "mainClass": "StringInsert",
