@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "SwappingCharacter",
+      "request": "launch",
+      "mainClass": "SwappingCharacter",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "StringAnagram",
       "request": "launch",
       "mainClass": "StringAnagram",
