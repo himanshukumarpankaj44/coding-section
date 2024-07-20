@@ -36,6 +36,25 @@ public class TwoMatrixSum {
             }
         }
     }
+    // matrix multiplication method
+
+    public static void matrixMulti(int[][] m1, int[][] m2) {
+
+        if (m1[0].length == m2.length) {
+            int[][] multi = new int[m1[0].length][m2.length];
+            for (int i = 0; i < m1.length; i++) {
+                for (int j = 0; j < m2[0].length; j++) {
+                    for (int k = 0; k < m2.length; k++) {
+                        multi[i][j] += m1[i][k] * m2[k][j];
+                    }
+                }
+                printMatrix(multi);
+            }
+        } else {
+            System.out.println("kindly provide  the valid size  of the matrix for multiplication:");
+        }
+
+    }
 
     public static void main(String[] args) {
 
@@ -46,7 +65,8 @@ public class TwoMatrixSum {
         int[][] m2 = new int[row][col];
         inputMatrix(m1);
         inputMatrix(m2);
-        matrixSum(m1,m2);
+        matrixSum(m1, m2);
+        matrixMulti(m1, m2);
 
     }
 

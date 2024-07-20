@@ -14,6 +14,9 @@ public class Strings {
             System.out.println(str+" is not a palindrome:");
         }
         sc.close();
+        for (String s : str.split("")) {
+            System.out.println(s);
+        }
 
     }
     public static void printLetters(String str){

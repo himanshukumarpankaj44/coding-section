@@ -6,6 +6,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "StringInsert",
+      "request": "launch",
+      "mainClass": "StringInsert",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "Strings",
+      "request": "launch",
+      "mainClass": "Strings",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "TwoMatrixSum",
       "request": "launch",
       "mainClass": "TwoMatrixSum",
