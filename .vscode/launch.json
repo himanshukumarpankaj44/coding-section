@@ -6,6 +6,48 @@
   "configurations": [
     {
       "type": "java",
+      "name": "OOPs",
+      "request": "launch",
+      "mainClass": "OOPs",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "TwoStringValueSum",
+      "request": "launch",
+      "mainClass": "TwoStringValueSum",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "CompareString",
+      "request": "launch",
+      "mainClass": "CompareString",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "StringSort",
+      "request": "launch",
+      "mainClass": "StringSort",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "RemoveZero",
+      "request": "launch",
+      "mainClass": "RemoveZero",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "ReplaceCharInString",
+      "request": "launch",
+      "mainClass": "ReplaceCharInString",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "SwappingCharacter",
       "request": "launch",
       "mainClass": "SwappingCharacter",
