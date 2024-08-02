@@ -6,6 +6,55 @@
   "configurations": [
     {
       "type": "java",
+      "name": "RecSearchElementArray",
+      "request": "launch",
+      "mainClass": "RecSearchElementArray",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "RecFibonacci",
+      "request": "launch",
+      "mainClass": "RecFibonacci",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "RecFactorial",
+      "request": "launch",
+      "mainClass": "RecFactorial",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "RecSumOfNnum",
+      "request": "launch",
+      "mainClass": "RecSumOfNnum",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "RecuIncreaseNum",
+      "request": "launch",
+      "mainClass": "RecuIncreaseNum",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "RecuDecreaseNum",
+      "request": "launch",
+      "mainClass": "RecuDecreaseNum",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
+      "name": "Himanshu",
+      "request": "launch",
+      "mainClass": "Recursion.Himanshu",
+      "projectName": "coding section_b1fea6ae"
+    },
+    {
+      "type": "java",
       "name": "OOPs",
       "request": "launch",
       "mainClass": "OOPs",
